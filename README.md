@@ -1,7 +1,7 @@
 
 
 # 🔥🔥 Use PYTHON 3.10 - 3.11.5 🔥🔥
-Tool được phát triển bởi nhóm tele Airdrop Hunter Siêu Tốc (<https://t.me/airdrophuntersieutoc>)
+
 ## Features  
 | Feature                                                     | Supported  |
 |---------------------------------------------------------------|:----------------:|
