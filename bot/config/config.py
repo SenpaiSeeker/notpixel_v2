@@ -27,7 +27,7 @@ class Settings(BaseSettings):
     DELAY_START_BOT: list[int] = [1, 15]
     SLEEP_TIME_BETWEEN_EACH_ROUND: list[int] = [1800, 7200]
 
-    ADVANCED_ANTI_DETECTION: bool = True
+    ADVANCED_ANTI_DETECTION: bool = False 
 
     USE_PROXY_FROM_FILE: bool = False
 
