@@ -8,9 +8,9 @@ class Settings(BaseSettings):
     API_HASH: str
 
     REF_LINK: str = "https://t.me/notpixel/app?startapp=f1092680235"
-    AUTO_UPGRADE_PAINT_REWARD: bool = False
-    AUTO_UPGRADE_RECHARGE_SPEED: bool = False
-    AUTO_UPGRADE_RECHARGE_ENERGY: bool = False
+    AUTO_UPGRADE_PAINT_REWARD: bool = True 
+    AUTO_UPGRADE_RECHARGE_SPEED: bool = True
+    AUTO_UPGRADE_RECHARGE_ENERGY: bool = True
     AUTO_TASK: bool = True
 
     USE_NEW_PAINT_METHOD: bool = True
@@ -27,7 +27,7 @@ class Settings(BaseSettings):
     DELAY_START_BOT: list[int] = [1, 15]
     SLEEP_TIME_BETWEEN_EACH_ROUND: list[int] = [1800, 7200]
 
-    ADVANCED_ANTI_DETECTION: bool = False
+    ADVANCED_ANTI_DETECTION: bool = True
 
     USE_PROXY_FROM_FILE: bool = False
 
